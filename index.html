@@ -1,51 +1,75 @@
 <!doctype html>
-<html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
 
 <head>
-    <title></title>
-    <link href="style.css" type="text/css" rel="stylesheet">
+    <title> pagina de exemplo estrutura basica </title>
+    <meta charset="utf-8">
+    <meta name="author" content="yury, Danilo">
+    <meta name="description" content="SITE SOBRE RECICLAGEM">
+    <meta name="keywords" content="APS">
+
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
+<nav>
+    <div class="menu">
+        <a href="#" class="active">menu</a>
+        <a href="#">fotos</a>
+        <a href="#">trabalhos</a>
+        <a href="#">vida social</a>
+        <a href="#">lixo</a>
+        <a href="#">endereço</a>
+    </div>
+</nav>
 
 <body>
 
-    <header>
-
-    </header>
-
-    <nav>
-        <div class="menu">
-            <a href="#" class="active">menu</a>
-            <a href="#">fotos</a>
-            <a href="#">trabalhos</a>
-            <a href="#">vida social</a>
-            <a href="#">lixo</a>
-            <a href="#">endereço</a>
-        </div>
-    </nav>
-    <hr>
-
-    <aside>
-
-        <h1> TITUTLO</h1>
-        <p> Yuri (百合 literalmente "lírio"?) também conhecido em wasei-eigo Girls' Love (ガールズラブ gāruzu rabu?) é um gênero de mangá e anime que descreve relações românticas entre mulheres. O termo Yuri também é conhecido pelo termo shoujo-ai,[1] que é um termo
-            mais usado para conteúdo mais leve sem nada explícito ou pornográfico. Porém, há também o termo yuri orange, que é usado para descrever um conteúdo que a cenas explícitas e pornográficas, referente ao amor de duas garotas. A palavra tem origem
-            no Japão, onde essa diferença no uso das palavras é mais marcante, e as lésbicas japonesas não usam nenhuma das palavras para se descreverem. O termo, incorretamente usado para definir relações sexuais entre duas garotas, é usado para indicar
-            relações não-explícitas, ou seja, mostra o antes e o depois, nunca o durante (geralmente, há algum fator da trama que impede sua exibição).</p>
-
-    </aside>
-
-    <section>
-        <div class="foto">
-            <div class="fotolado ">
-                <img src="1-lixeira-para-reciclagem.jpg" alt="Snow">
-
-             
-             
-
-
+    <div id="principal">
+        <header class="hero">
+            <div class="hero-content">
+                <h1> Recicle Para Salvar Vidas </h1>
+                <p>é seja feliz </p>
             </div>
-    </section>
-    1-lixeira-para-reciclagem.jpg
+        </header>
+
+        <main>
+
+            <section class="content-section">
+                <div class="card card-1">
+                    <img src="imagens/card_01.png" alt="">
+                    <p>Seletores</p>
+                </div>
+
+                <div class="card card-2">
+                    <img src="imagens/card_02.jpg" alt="">
+                    <p>Posicionamento</p>
+                </div>
+
+                <div class="card card-3">
+                    <img src="imagens/card_03.jpg" alt="">
+                    <p>Fontes</p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <article>
+                    <header class="content-header">
+                        <h2>Titulo do article</h2>
+                    </header>
+                    <p>Paragrafo 1</p>
+                    <p>Paragrafo 2</p>
+                </article>
+            </section>
+
+        </main>
+
+        <footer class="rodape">
+
+            <p>Copyright &copy; 2018</p>
+
+        </footer>
+    </div>
+
 </body>
 
 </html>
