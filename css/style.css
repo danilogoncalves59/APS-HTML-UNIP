@@ -5,7 +5,7 @@ body {
 }
 
 .hero {
-    background-image: url(../imagens/4thHKBSI_6647x3743.jpg);
+    background-image: url();
     height: 500px;
     background-position: right center;
     background-size: cover;
@@ -112,4 +112,13 @@ main {
     text-shadow: 2px 2px 2px black;
     background: #6b6c68;
     line-height: 80px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
