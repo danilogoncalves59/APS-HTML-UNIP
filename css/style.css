@@ -2,7 +2,6 @@ body {
     font-family: arial, sans-serif;
     background: #ccc;
     margin: 0;
-    background-image: url(background-image: url(../imagens/4thHKBSI_6647x3743.jpg););
 }
 
 .hero {
@@ -79,8 +78,9 @@ main {
 }
 
 .card-1 {
-    width: 32%;
+    width: 30%;
     margin-right: 2%;
+    margin-left: 5%;
 }
 .card-2 {
     margin-right: 2%;
@@ -125,8 +125,63 @@ main {
 }
 
 h2{
-    font-size: 50px;
+    font-size: 30px;
+}
+
+div.center {
+    text-align: center;
 }
 
 
+* {margin: 0; padding: 0;}
+a,img {border: none;}
+.trs {-webkit-transition:all ease-out 0.5s;
+    -moz-transition:all ease-out 0.5s;
+    -o-transition:all ease-out 0.5s;
+    -ms-transition:all ease-out 0.5s;
+    transition:all ease-out 0.5s;}  
+#slider {position: relative; z-index: 1;}
+#slider a { position: absolute; top: 0; left: 0; opacity: 0;filter:alpha(opacity=0);}
+.ativo {opacity: 1!important; filter:alpha(opacity=100)!important;}
+
+/*controladores*/
+span {background: rgb(52, 201, 14); cursor: pointer; opacity: 0;filter:alpha(opacity=0); position: absolute; bottom: 40%; width: 43px; height: 43px; z-index: 5;}
+.next {right: 10px;}
+.next:before,.next:after {left: 21px;}
+.next:before {
+    -webkit-transform: rotate(-42deg);
+    top: 5px;
+}
+.next:after {
+    -webkit-transform: rotate(-132deg);
+    top: 19px;
+}
+.next:before,.next:after,.prev:before,.prev:after {content: "";
+    height: 20px;
+    background: #fff;
+    width: 1px;
+    position: absolute;
+}
+.prev {left: 10px;}
+.prev:before,.prev:after {left: 18px;}
+.prev:before {
+    -webkit-transform: rotate(42deg);
+    top: 5px;
+}
+.prev:after {
+    -webkit-transform: rotate(132deg);
+    top: 19px;
+}
+
+figure:hover span {opacity: 0.76;filter:alpha(opacity=76);}
+
+    figure {
+    max-width: 80%;
+    height: 354px;
+    position: relative;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+figcaption {padding-left: 20px;color: #fff; font-family: "Kaushan Script","Lato","arial"; font-size: 22px; background: rgba(54, 224, 2, 0.76); width: 100%; position: absolute; bottom: 0; left: 0; line-height: 55px; height: 55px; z-index: 5}
 
