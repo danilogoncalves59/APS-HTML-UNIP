@@ -5,10 +5,11 @@ body {
 }
 
 .hero {
-    background-image: url(../imagens/4thHKBSI_6647x3743.jpg);
-    height: 500px;
-    background-position: right center;
+    background-image: url(../imagens/reciclagem-de-papel-marrom-para-plano-de-fundo-e-texturizado_3236-1570.jpg);
+    height: 100px;
     background-size: cover;
+    background-position: right center;
+    
     border-top: 1px solid transparent;
 }
 
@@ -78,7 +79,7 @@ main {
 }
 
 .card-1 {
-    width: 30%;
+    width: 32%;
     margin-right: 2%;
     margin-left: 5%;
 }
