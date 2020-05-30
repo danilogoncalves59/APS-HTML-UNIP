@@ -2,10 +2,11 @@ body {
     font-family: arial, sans-serif;
     background: #ccc;
     margin: 0;
+    background-image: url(background-image: url(../imagens/4thHKBSI_6647x3743.jpg););
 }
 
 .hero {
-    background-image: url();
+    background-image: url(../imagens/4thHKBSI_6647x3743.jpg);
     height: 500px;
     background-position: right center;
     background-size: cover;
@@ -118,6 +119,5 @@ h2{
     font-size: 50px;
 }
 
-.mySlides {display:none}
-    .w3-left, .w3-right, .w3-badge {cursor:pointer}
-    .w3-badge {height:13px;width:13px;padding:0}
+
+
